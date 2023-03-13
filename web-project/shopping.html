@@ -1,0 +1,83 @@
+<html>
+<body>
+<h1>Registration form</h1>
+<br><br>
+<form method="post" action="log.php" id="form" autocomplete="on">
+<table>
+<tr>
+<td>Login</td> 
+<td><input type="text" size="25" name="log" value="" id="login" onkeyup="lettersOnly(this)"></td>
+</tr>
+<tr>
+<td>password</td> 
+<td><input type="password" size="25" name="pass" value="" id="password"></td>
+</tr>
+<tr>
+<td> num.cart :</td>
+<td><input type="text" onkeypress="isInputNumber(event)" id="numberCart" name="crd"></td>
+</tr>
+<tr>
+<td> credit balance :</td>
+<td><input type="text" onkeypress="isInputNumber(event)" id="numberCart" name="crdb"></td>
+</tr>
+</table>
+<br>
+<input type="submit" value="login" onclick="check()"><br>
+<a href="reg.php" style="text-decoration:none">click here to create account</a>
+</form>
+<script>
+        //log in form 
+
+        function check() {
+            if ((document.getElementById('numberCart').value === "")) {
+                alert("you have to enter all field");
+                return false;
+            }
+            if ((document.getElementById('firstName').value === "")) {
+                alert("you have to enter all field");
+                return false;
+            }
+            if ((document.getElementById('login').value === "")) {
+                alert("you have to enter all field");
+                return false;
+            } if ((document.getElementById('password').value === "")) {
+                alert("you have to enter all field");
+                return false;
+            }
+
+        }
+
+
+
+
+
+        //for user name
+        function letters(input) {
+            var regex = /[^a-z" "]/gi;
+            input.value = input.value.replace(regex, "");
+        }
+
+        //for login in sign up
+        function lettersOnly(input) {
+            var regex = /[^a-z]/gi;
+            input.value = input.value.replace(regex, "");
+        }
+
+
+
+        //for cridet cart 
+        function isInputNumber(evt) {
+
+            var ch = String.fromCharCode(evt.which);
+
+            if (!(/[0-9]/.test(ch))) {
+                evt.preventDefault();
+            }
+
+        }
+
+
+
+    </script>
+</body>
+</html>

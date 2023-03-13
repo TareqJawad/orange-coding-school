@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #t01 tr:nth-child(even) {
+            background-color: rgb(227, 241, 255);
+        }
+
+        #t01 tr:nth-child(odd) {
+            background-color: rgb(206, 219, 247);
+        }
+
+        #t01 th {
+
+            color: rgb(120, 105, 151);
+            background-color: rgb(204, 198, 255);
+
+        }
+
+        #t01 {
+            background-color: rgb(203, 249, 250);
+            border: solid rgba(204, 188, 188, 0.507);
+            border-radius: 20px;
+            padding: 1.5px;
+            width: 35pc;
+            /* height: 240px; */
+            margin-left: 20pc;
+            border-spacing: 3px;
+            text-align: center;
+            border-radius: 20px;
+            box-shadow: rgba(0, 0, 0, 0.692) 1px 2px 10px 0px;
+        }
+
+
+
+        #icon {
+
+
+            margin-left: 5px;
+            width: 35%;
+        }
+
+        #cat {
+            margin-left: 5px;
+            width: 150px;
+            height: 200px;
+        }
+
+        #catch {
+            margin-left: 5px;
+            width: 98px;
+            height: 200px;
+        }
+
+        #tona {
+            margin-left: 5px;
+
+            width: 150px;
+            height: 100px;
+        }
+
+        #radio {
+            margin-left: -9pc;
+        }
+
+        #taxt {
+            width: 30px;
+        }
+
+        #bay {
+            background-color: rgb(152, 212, 236);
+            border: rgb(241, 238, 255) 1px solid;
+            padding: 1pc;
+            font-size: large;
+
+        }
+
+        #press {
+            padding: 1.2pc;
+        }
+    </style>
+</head>
+<body>
+<form method="post" action="cart2.php" id="radio">
+    <table id=t01>
+        <thred>
+            <tr>
+                <th colspan='3'>Welcome to AlRadiadeh Shopping center <br>
+                    Please choose the products you want and press buy
+                </th>
+            </tr>
+        </thred>
+        <tbody>
+            <tr>
+                <td>
+                        <input type="radio" name="g" value="chili sauce 1.2 JD">
+                    <img src="cat.png" alt="" id="cat">
+                    1.2 JD
+                        <br>
+                        Number of items
+                        <input type="text" name='e' value="" id="taxt">
+                </td>
+                <td>    
+                        <input type="radio" name="g" value="tomato sauce 0.8 JD">
+                    <img src="catch.png" alt="" id="catch">
+                     0.8 JD
+                        <br>
+                        Number of items
+                        <input type="text" name='f' value="" id="taxt">
+                </td>
+                <td>
+                        <input type="radio" name="g" value="tona 0.8 JD">
+                    <img src="tona.png" alt="" id="tona">
+                    <br><br><br>
+                     0.8 JD
+                        <br>
+                        Number of items
+                        <input type="text" name='c' value="" id="taxt">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                        <input type="radio" name="g" value="milk 0.75 JD">
+                    <img src="milk.png" alt="" id="icon">
+                     0.75 JD
+                        <br>
+                        Number of items
+                        <input type="text" name='x' value="" id="taxt">    
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" id="press">  
+                        <input type="submit" name='m' value="  press to buy  " id="bay">     
+                </td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+</body>
+
+</html>

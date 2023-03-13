@@ -1,0 +1,29 @@
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+SeS Recorder Starting...
+
+Rapise Version:7.2.25.11
+Verbose level:1
+Recording script file:C:\AppServ\www\web_project\web-project\project_1\Main.js
+Recording window title:regex:.* class:regex:.*
+Creating a locator:HTML
+Creating a locator:HTML FPP
+started:1653894968779
+Connected to Chrome window:false
+Assertion: MSEdge Process Created, result: true
+Process started PID:8688
+Attaching Chrome, attempt 1
+StartTrackingChrome WND: 264342
+g_chromeHwnd: 264342
+Connecting to Proxy at port: 1200
+Connecting to Proxy at port: 1200
+Connecting to Proxy at port: 1200
+Connecting to Proxy at port: 1200
+Connecting to Proxy at port: 1200
+Connecting to Proxy at port: 1200
+Connecting to Proxy at port: 1200
+Connecting to Proxy at port: 1200
+Connecting to Proxy at port: 1200
+Connecting to Proxy at port: 1200
+Connection to Chrome failed!

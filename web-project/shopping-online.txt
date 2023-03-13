@@ -1,0 +1,44 @@
+<html>
+<body>
+<h3>Login or create a new account</h3>
+<form method="post" action="*">
+<label>Login: 
+<input type="text" name="fname" value="">
+</label><br><br>
+
+<label>Password
+<input type="password" name="pws" value="">
+</label><br><br>
+
+<input type="submit" value="login"><br><br>
+
+<a href ="#x" style="text-decoration:none">click here to create account</a> <br><br>
+
+<label >Full Name:
+<input type="text" id="x" name="flname" value="">
+</label><br><br>
+
+<label>Address:
+<input type="text" name="ads" value="">
+</label><br><br>
+
+<label>Login: 
+<input type="text" name="log" value="">
+</label><br><br>
+
+<label>Password:
+<input type="password" name="psw" value="" size="10">
+</label><br><br>
+
+<label>Retype password:
+<input type="password" name="repsw" value="" size="10">
+</label><br><br>
+
+<label>Credit card Number:
+<input type="text" name="ccn" value="">
+</label><br><br>
+
+<input type="submit" value="Create account" style="color:pink">
+
+
+
